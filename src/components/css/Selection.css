@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.root{align-items: center;
+}
+.main{ 
+
+  position: absolute;
+  top: 12%;
+  left: 15%;
+  height: 40rem;
+  width: 70%;
+  background:#4525F2 
+}
+.heading{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  margin-top:5%;
+  font-size: 2rem;
+}
+.quarter{
+  position: absolute;
+  top: 0%;
+  width: 13%;
+height: 21%;
+border-top-right-radius:0;
+border-top-left-radius:0;
+border-bottom-left-radius:0;
+border-bottom-right-radius:100%;
+background: rgb(245, 185, 195);
+}
+.circle{
+  position: absolute;
+  top: 70%;
+   left: 80%;
+  height: 30%;
+  width: 20%;
+  border-radius: 100%;
+  background: rgb(245, 185, 195);
+}
+.registration{
+  margin-top: 9%;
+  z-index: 2;
+  background:#84B5FF
+    ;
+  position: absolute;
+  left: 10%;
+
+  height: 75%;
+  width: 80%;
+  border-radius: 5%;
+}
+.poster{
+  position: absolute;
+  top: 10%;
+  height: 90%;
+  width: 60%;
+  left: -2%;
+  background-image: url('/rafiki.png');
+  background-size: 100% 100%;
+}
+.title
+{position: absolute;
+  top: 5%;
+  left: 4%;
+  display: flex;
+  column-gap: 1rem;
+}
+.title span{
+  color: white;
+  font-weight: BOLD;
+}
+.logo{
+  border-radius: 50%;
+  height: 1.4rem;
+  width: 1.4rem;
+  background-image: url(/image\ 3.png);
+  background-size: 100% 100%;
+}
+.form{
+  position: absolute;
+  top: 6%;
+  left: 55%;
+  
+  width: 43%;
+  height: 89% ;
+  background: white;
+  border-radius: 5%;
+}
+  .form form{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #country,.form form input{
+ width: 80%;
+ text-align: center;
+ margin-left: 4%;
+ margin-top: 50%;
+ height: 2.2rem;
+ border-radius: 2rem;
+ 
+  }
+  #next1{
+    position: absolute;
+    left: 20%;
+    width: 50%;
+    top: 50%;
+  text-decoration: none;
+    background: blue;
+    color:white;
+    height: 7%;
+    border-radius: 2rem;
+    border: 1px solid black;
+   
+  }
+  #next2{
+    position: absolute;
+    text-decoration: none;
+    top: 60%;
+    left: 20%;
+    width: 50%;
+    background: blue;
+    color:white;
+    height: 7%;
+    border-radius: 2rem;
+    border: 1px solid black;
+   
+  }
+  #next3{
+    position: absolute;
+    text-decoration: none;
+    top: 70%;
+    left: 20%;
+    width: 50%;
+    background: blue;
+    color:white;
+    height: 7%;
+    border-radius: 2rem;
+    border: 1px solid black;
+   
+  }
+  #back{
+    color:blue;
+    background: white;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top:70%;
+    left: 6%;
+  }
+  .form h2{
+ position: absolute;
+ margin-top: 25%;
+ left: 7%;
+    text-align: center;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+@media(max-width:998px){
+  html{
+    font-size: 70%;
+  }
+  
+  
+}
+@media(max-width:768px){
+  html{
+    font-size: 70%;
+  }
+  
+}

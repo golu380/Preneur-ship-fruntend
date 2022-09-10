@@ -1,0 +1,201 @@
+   /* for mobile view */
+   @media only screen and (min-width:1025px){
+    .E-9-container1 span img {
+          height: 70px !important;
+          top: 10px !important;
+  }
+  .E-9-navbar{
+    height: 50px !important;
+  }
+   }
+   
+      @media only screen and (min-width: 911px) {
+  
+        .E-9-container1 span img {
+          height: 70px !important;
+          top: 10px !important;
+  }
+  .E-9-navbar{
+    height: 50px !important;
+  
+   }
+  .E-9-box2 input{
+    height: 10px !important;
+  }
+  .E-9-navbar2{
+  
+    margin-left: 12% !important;
+    margin-top: 10px !important;
+  }
+  
+      }
+    
+      @media only screen and (max-width: 500px) {
+           .container1 span img {
+    margin-left: 42% !important;
+   
+  }
+  .E-9-circle3{
+    display: none;
+  }
+  
+  .E-9-circle2{
+          display: none;
+        }
+  .E-9-box2 .E-9-btn1 {
+          margin-left: 37% !important;
+        }
+      
+        .E-9-box2 .E-9-btn2 {
+          margin-left: 37% !important;
+        }}
+      @media only screen and (max-width: 540px) and (min-width:539px) {
+           .E-9-container1 span img {
+    margin-left: 46% !important;
+  }
+  .E-9-box2 .E-9-btn1 {
+          margin-left: 40% !important;
+        }
+        .E-9-box2 .E-9-btn2 {
+          margin-left: 40% !important;
+        }
+      }
+      /* ------end------- */
+      .E-9-circle1 {
+        position: fixed;
+        background-color: #9785ff;
+        height: 150px;
+        width: 150px;
+        left: -70px;
+        top: -70px;
+        border-radius: 50%;
+      }
+  
+      .E-9-circle3 {
+        position: fixed;
+        background-color: #9785ff;
+        height: 60px;
+        width: 60px;
+        left: 30px;
+        bottom: 30px;
+        border-radius: 50%;
+      }
+  
+      .E-9-circle2 {
+        position: fixed;
+        background-color: #9785ff;
+        height: 200px;
+        width: 200px;
+        right: -60px;
+        bottom: -60px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+  
+      .E-9-navbar {
+        background-color: blue;
+        width: 100%;
+        height: 90px;
+        z-index: 5;
+      }
+  
+      .E-9-container1 span img {
+  
+        height: 110px;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: 20px;
+        margin-left: 48.5%;
+        background-color: rgb(120, 120, 120);
+        border-radius: 60px;
+        z-index: 8;
+      }
+  
+      .E-9-box2 {
+        /* margin-top: 40px; */
+        align-items: center;
+        margin-left: 10%;
+       
+        padding-top: 30px;
+      }
+  
+      .E-9-box2 input {
+        border-radius: 20px;
+        border: 1px solid #d4d4d4;
+        padding: 25px;
+        margin: 20px;
+        margin-top: 10px;
+        width: 90%;
+        height: 30px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.217) 0px 0px 15px 0px;
+      }
+  .E-9-box2 label{
+    font-weight: bold;
+    margin-left: 7%;
+  }
+      .E-9-box2 .E-9-btn1 {
+        border-radius: 20px;
+        padding: 7px 20px;
+        margin-top: 4px;
+        border: #4525f2 1px solid;
+        background-color: #4525f2;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        margin-left: 43%;
+      }
+  
+      .E-9-box2 .E-9-btn2 {
+        border-radius: 20px;
+        padding: 7px 20px;
+        font-weight: bold;
+        color: #4525f2;
+        text-align: center;
+        margin-left: 43%;
+        margin-top: 5px;
+        border: 1px solid grey;
+        background-color: #fff;
+      }
+  
+      .E-9-navbar2 {
+        position: absolute;
+        height: 50px;
+        margin-left: 15%;
+        top: 500px !important;
+        border-radius: 25px;
+        overflow: hidden;
+        width: 80%;
+        margin-top: 50px;
+        background: linear-gradient(137.08deg, rgba(255, 255, 255, 0.28) 15.18%, rgba(255, 255, 255, 0.07) 81.82%);
+        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(40px);
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+  
+      .E-9-navbar2 .E-9-s {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 8%;
+      }
+  
+      .E-9-navbar2 .E-9-t {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 47%;
+      }
+  
+      .E-9-navbar2 .E-9-u {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 82%;
+      }
+  

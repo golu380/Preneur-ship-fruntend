@@ -1,0 +1,182 @@
+@media only screen  and (max-width:350px) and (min-width:282px){
+    .E-15-navbar h5{
+      font-size: 15px;
+    }
+   }
+   @media only screen  and (max-width:281px){
+     .E-15-navbar{
+       width: 110% !important;
+       font-size: 10px;
+     }
+     .E-15-box2 input{
+   width: 65% !important;}
+ .E-15-product-section{
+   width: 68% !important;
+ }
+   }
+   @media only screen  and (max-width:700px) and (min-width:319px){
+     .E-15-box2 input{
+   width: 73% !important;}
+ .E-15-product-section{
+   width: 75% !important;
+ }
+}
+
+   @media only screen  and (min-width:767px){
+   
+     .E-15-navbar2{
+       margin-top: 120px !important;
+       height: 400px !important;
+     }
+     /* .E-15-box2 .E-15-btn2{
+       margin-left: 43% !important;
+     } */
+   }
+    /* ------end------- */
+  
+   .E-15-product-section label{
+     font-size:15px ;
+     margin-left: 3% !important;
+     margin-bottom: 10px;
+   }
+   .E-15-product-section {
+     background: rgba(196, 196, 196, 0.E-15-5);
+     border-radius: 50px;
+     padding: 20px;
+     margin-left: 2%;
+     height: 5%;
+     margin-right: 2%;
+     margin-top: 10px;
+     width: 85%;
+     padding-bottom: 40px;
+   }
+
+
+   .E-15-box2 label{
+     font-weight: bold;
+  font-size: large;
+ /* margin-left: 2%; */
+ margin-top: 90%;
+ margin-bottom: 10%;
+ z-index: 100;
+}
+   .E-15-navbar {
+     background-color: blue;
+     width: 100%;
+     height: 100px;
+     z-index: 5;
+   }
+   .E-15-navbar h5,
+   .E-15-navbar p {
+     margin-left: 260px;
+     color: #fff;
+   }
+   .E-15-container1 span img {
+     height: 80px;
+     object-fit: cover;
+     object-position: center;
+     position: absolute;
+     top: 10px;
+     left: 6%;
+     background-color: rgb(120, 120, 120);
+     border-radius: 40px;
+     z-index: 8;
+   }
+   .E-15-navbar2 {
+     position: absolute;
+     margin-top: 120px ;
+       height: 400px ;
+   width: 55px;
+   right: 0px;
+   margin-right: 1%;
+   border-radius: 40px;
+   background-color: #4425f27e;
+   box-shadow: 0px 4px 50px rgb(0 0 0 / 40%);
+   backdrop-filter: blur(40px);
+   z-index: 5;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   }
+.E-15-navbar2 img{
+                  width: 30px;
+             }
+   .E-15-box2 {
+         background-color: white;
+         text-align: center;
+         margin-top: 100px;
+
+   }
+
+   .E-15-box2 input {
+     border-radius: 20px;
+     /* box-shadow:1px  grey; */
+     box-shadow: 0px 4.49056px 44.9056px rgba(0, 0, 0, 0.2);
+     border: 1px solid #d4d4d4;
+     padding: 15px;
+     margin: 5px;
+     margin-top: 4px;
+     width:85%;
+     height: 30px;
+  
+   }
+
+
+
+/* E-15-box2 label{
+ font-weight: bold;
+} */
+
+   .E-15-box2 img {
+     width: 15%;
+     border-radius: 10px;
+     height: 50px;
+     border: 1px solid black;
+   }
+   .E-15-box2 .E-15-btn1 {
+    border-radius: 30px;
+    padding: 7px 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: none;
+    margin-top: 3px;
+    width: 100%;
+    background-color: blue;
+    text-decoration: none;
+
+   }
+   .E-15-box2 .E-15-btn2 {
+    border-radius: 30px;
+    padding: 7px 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    margin-top: 3px;
+    width: 100%;
+    background-color: blue;
+   }
+   .E-15-box2 .E-15-btn3 {
+     border-radius: 30px;
+     padding: 7px 20px;
+     font-weight: bold;
+     color: blue;
+     text-align: center;
+     border: none;
+     margin-top: 3px;
+     width: 100%;
+     
+
+   }
+
+.E-15-addimages{
+     width: 100px;
+     height: 100px;
+     border: 1px solid black;
+     border-radius: 20%;
+align-items: center;   
+font-size: xx-large;
+}

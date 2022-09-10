@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .dash {
+    position: relative;
+    width: 110%;
+    margin-top: -2%;
+    height:180vh;
+    position: fixed;
+  }
+  
+  .nav {
+    /* overflow: hidden; */
+    position: relative;
+    left: 0%;
+    top: 2%;
+    height: 15%;
+    width: 95%;
+    background: #4525f2;
+  
+    /* background-image: url(./images/nav.jpg); */
+  
+    background-size: 100% 100%;
+    border-radius: 2%;
+  }
+  .quarter {
+    width: 9%;
+    height: 60%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 100%;
+    background-color: pink;
+  }
+  .profilePic {
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    font-size: 1.1rem;
+    top: 50%;
+    left: 40%;
+    font-size: 1.1rem;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 5px 5px 5px 1px grey;
+    font-weight: bold;
+    border: none;
+  }
+  .info {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bio,
+  .skills {
+    border-radius: 8px;
+    position: relative;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: 5px 6px 5px gray;
+    border: 2px solid rgb(238, 237, 237);
+    height: 10%;
+    padding: 2px 13px;
+    margin-top: 2%;
+  }
+  
+  .confirm {
+    border-radius: 58px;
+    border: 2px solid rgb(238, 237, 237);
+    font-weight: bolder;
+    font-size: 13px !important;
+    padding: 2px 13px;
+    background-color: rgb(5, 72, 228);
+    color: white;
+    position: relative;
+    margin-left:-12%;
+    top: 24%;
+    font-size: 80%;
+    width: 100px;
+    padding-top:3px;
+    padding-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 30px;
+  }
+  .confirm:hover{
+    background: rgb(168, 237, 93);
+  transform: scale(1.05);
+  }
+  .back {
+    border-radius: 58px;
+    /* border: 2px solid rgb(5, 72, 228); */
+    font-weight: bolder;
+    font-size: 13px !important;
+    padding: 2px 13px;
+    background-color: rwhite;
+    color: rgb(5, 72, 228);
+    position: relative;
+    margin-left:28%;
+    top: 65%;
+    font-size: 80%;
+    width: 100px;
+    padding-top:3px;
+    padding-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 30px;
+  }
+  
+  
+  
+  .dot_side {
+    position: absolute;
+    top: 40%;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    background-color: #4525f2;
+  }
+  .quarter_side {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    background-color: #4525f2;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 100%;
+  }
+  
+  
+  .mobile_info{
+    display: none;
+    height: 40rem;
+  }
+  
+  .mobile_profile{
+    position: relative;
+    top: 4rem;
+    left: -2rem;
+    width: 150px;
+    height: 150px;
+  }
+  .mob_skill{
+    position: relative;
+    top: 10rem;
+    height: 40px;
+    left: -2rem;
+    border-radius: 10px;
+    width: 320px;
+    font-weight: bold;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px solid rgb(179, 179, 179);
+  }
+  .adddpic{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 95px;
+    left: 98px;
+    border: none;
+  }
+  .paragraph{
+    position: relative;
+    top: 12rem;
+    left: -2rem;
+    /* height: 180px; */
+    padding: 10px 0px 100px 10px;
+    background: #fff;
+    width: 320px;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    
+  }
+  .name{
+    position: relative;
+    top: 11rem;
+    left: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .mob_Bio{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 20rem;
+  font-size: 1.5rem;
+  left: -14.5rem;
+  }
+  
+  #mobile_button{
+    position: relative;
+  
+    background: blue;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    top: 14rem;
+    left: 7rem;
+    width: 110px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px rgb(245, 243, 243);
+    border-radius: 5px;
+  }
+
+  .user_photo_input{
+    width:55px;
+    height:55px;
+    background-color: rgb(83, 75, 75);
+    display:block;
+    background-size: cover;
+    margin-top: 45px;
+    cursor: pointer;
+  }
+  .user_photo_input input[type="file"]{
+    display: none;
+  }
+
+         
+  .confirm_btn{
+    width:230px;
+    height:42px;
+    margin-top: 32px;
+    border: 0;
+    background-color: #4525f2;
+    color: #fff;
+  }
+  .disabled{
+    pointer-events: none;
+    background-color: #4425f226 !important;
+  }
+ 
+  /* .mobile_info.mobile_profile{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+  } */
+  @media(max-width:998px){
+    html{
+      font-size: 70%;
+    }
+    .dash{
+      top: -1.5%;
+      height:190vh;
+    }
+    .back{
+      left: -38%;
+    }
+  
+  
+  }
+  @media(max-width:768px){
+    html{
+      font-size: 70%;
+    }
+    .back{
+      left: -43%;
+    }
+  
+    .check{
+      left: 42%;
+    }
+    .p1{
+      left: 34%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+   
+    }
+    .nav,.dot_side,.quarter_side,.info{
+      display: none;
+    }
+    .mobile_info{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      column-gap: 10px;
+      
+  
+    }
+  
+  }
+  @media screen and (max-width:321px) {
+    .mob_skill{
+      margin-left: 10% !important;
+      width: 60%;
+    }
+    .paragraph{
+      margin-left: 10% !important;
+      width: 60%;
+    }
+    
+  }
